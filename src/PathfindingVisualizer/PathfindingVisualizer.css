@@ -1,0 +1,95 @@
+/*
+The styling elements are referenced from
+https://github.com/clementmihailescu/Pathfinding-Visualizer-Tutorial
+*/
+/*
+The same mistake I was making every single time was that I was specifying the absolute path
+of the images that were used. Use the relative path. This helps when you deploy the
+app on github. C:/Users/archi..... doesn't exist there, but relative path does.
+*/
+.grid-container {
+    margin: 2% auto;
+    outline: 4px solid black;
+  }
+  
+  .grid {
+    white-space: pre-line;
+  }
+  
+  button {
+    border: rgb(166, 247, 5);
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px 29px;
+    text-align: center;
+    text-decoration: yellow;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: cursive;
+  }
+  .button_1 {
+    border: rgb(166, 247, 5);
+    background-color: red;
+    color: whitesmoke;
+    padding: 5px 29px;
+    text-align: center;
+    text-decoration: yellow;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: cursive;
+  }
+  .button_2 {
+    border: rgb(166, 247, 5);
+    background-color: rgb(60, 197, 32);
+    color: black;
+    padding: 5px 29px;
+    text-align: center;
+    text-decoration: yellow;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: cursive;
+  }
+  
+  .project_Name {
+    position: relative;
+    z-index: 4;
+    text-align: left;
+    font-size: 50px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: whitesmoke;
+    background-image: url("./spaceimg.jpg");
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    top: -5px;
+    left: 105%;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  

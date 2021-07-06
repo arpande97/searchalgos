@@ -1,0 +1,89 @@
+/*
+The styling elements are referenced from
+https://github.com/clementmihailescu/Pathfinding-Visualizer-Tutorial
+*/
+/*
+The same mistake I was making every single time was that I was specifying the absolute path
+of the images that were used. Use the relative path. This helps when you deploy the
+app on github. C:/Users/archi..... doesn't exist there, but relative path does.
+*/
+.node {
+    width: 21px;
+    height: 21px;
+    outline: 0.5px solid rgb(167, 99, 35);
+    display: inline-block;
+  }
+  
+  .node-finish {
+    background-image: url("../circle.svg");
+  }
+  
+  .node-start {
+    background-image: url("../diamond.svg");
+  }
+  
+  .node-visited {
+    animation-name: visitedAnimation;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes visitedAnimation {
+    0% {
+      transform: scale(0.3);
+      background-color: rgba(0, 0, 66, 0.75);
+      border-radius: 100%;
+    }
+  
+    50% {
+      background-color: rgba(231, 47, 15, 0.75);
+    }
+  
+    75% {
+      transform: scale(1.2);
+      background-color: rgba(231, 38, 13, 0.445);
+    }
+  
+    100% {
+      transform: scale(1);
+      background-color: rgba(0, 140, 218, 0.75);
+    }
+  }
+  
+  .node-wall {
+    background-color: rgb(12, 53, 71);
+  }
+  
+  .node-shortest-path {
+    animation-name: shortestPath;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes shortestPath {
+    0% {
+      transform: scale(0.6);
+      background-color: rgb(255, 254, 106);
+    }
+  
+    50% {
+      transform: scale(1.2);
+      background-color: rgb(255, 254, 106);
+    }
+  
+    100% {
+      transform: scale(1);
+      background-color: rgb(255, 254, 106);
+    }
+  }
+  
