@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/searchalgos/static/css/main.7bb3a71e.chunk.css",
+    "main.js": "/searchalgos/static/js/main.65c16448.chunk.js",
+    "main.js.map": "/searchalgos/static/js/main.65c16448.chunk.js.map",
+    "runtime-main.js": "/searchalgos/static/js/runtime-main.7916ff82.js",
+    "runtime-main.js.map": "/searchalgos/static/js/runtime-main.7916ff82.js.map",
+    "static/js/2.21feb38e.chunk.js": "/searchalgos/static/js/2.21feb38e.chunk.js",
+    "static/js/2.21feb38e.chunk.js.map": "/searchalgos/static/js/2.21feb38e.chunk.js.map",
+    "static/js/3.905e7537.chunk.js": "/searchalgos/static/js/3.905e7537.chunk.js",
+    "static/js/3.905e7537.chunk.js.map": "/searchalgos/static/js/3.905e7537.chunk.js.map",
+    "index.html": "/searchalgos/index.html",
+    "static/css/main.7bb3a71e.chunk.css.map": "/searchalgos/static/css/main.7bb3a71e.chunk.css.map",
+    "static/js/2.21feb38e.chunk.js.LICENSE.txt": "/searchalgos/static/js/2.21feb38e.chunk.js.LICENSE.txt",
+    "static/media/Node.css": "/searchalgos/static/media/diamond.08073286.svg",
+    "static/media/PathfindingVisualizer.css": "/searchalgos/static/media/spaceimg.88cd4a07.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7916ff82.js",
+    "static/js/2.21feb38e.chunk.js",
+    "static/css/main.7bb3a71e.chunk.css",
+    "static/js/main.65c16448.chunk.js"
+  ]
+}
